@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>이채은 | Portfolio</title>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo">Chaeeun's Portfolio</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <!-- 소개 섹션 -->
+      <section class="intro-section">
+        <img
+          class="profile-image"
+          src="https://images.unsplash.com/photo-1741546214243-ae4ede93542f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="profile image"
+        />
+        <div class="intro-text">
+          <h1 class="main-title">
+            안녕하세요, 웹 개발자 <span>이채은</span>입니다.
+          </h1>
+          <p class="main-subtitle">
+            사용자 중심의 직관적인 서비스와 견고한 서버 설계를 지향합니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- about 섹션 -->
+      <section id="about" class="box-section">
+        <h2 class="section-title">About</h2>
+        <div class="card-grid">
+          <!-- about me -->
+          <div class="info-card">
+            <h3>👩‍🎓 About Me</h3>
+            <ul>
+              <li>홍익대학교 컴퓨터공학전공 '21</li>
+              <li>2024.06 | SQLD 취득</li>
+              <li>2024.09 | 정보처리기사 취득</li>
+            </ul>
+          </div>
+          <!-- experience -->
+          <div class="info-card">
+            <h3>💼 Experience</h3>
+            <ul>
+              <li>
+                대학생 연합 개발 동아리 UMC 5-8기 스터디원/운영진 - Spring Boot
+                스터디 리드
+              </li>
+              <li>
+                홍익대학교 제 4, 5회 학과 개발 세미나 devTalk 기획팀 운영진
+              </li>
+            </ul>
+          </div>
+          <!-- skills -->
+          <div class="info-card">
+            <h3>🛠️ Skills</h3>
+            <p>
+              HTML, CSS, JavaScript, React, Java, Spring Boot, MySQL, AWS,
+              Redis, Docker, Git
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects 섹션 -->
+      <section id="projects" class="box-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <!-- 책모 프로젝트 -->
+          <div class="project-card">
+            <div class="image">
+              <img src="./images/Checkmo.png" alt="Checkmo" />
+            </div>
+            <div class="project-content">
+              <h3>책모</h3>
+              <p>독서 토론 플랫폼</p>
+              <span class="project-date">2025.06 - 2026.01</span>
+              <br />
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <!-- picky 프로젝트 -->
+          <div class="project-card">
+            <div class="image">
+              <img src="./images/Picky.png" alt="Picky" />
+            </div>
+            <div class="project-content">
+              <h3>Picky</h3>
+              <p>독서 감상 공유 앱 서비스</p>
+              <span class="project-date">2025.01 - 2025.11</span>
+              <br />
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <!-- seeatheater 프로젝트 -->
+          <div class="project-card">
+            <div class="image">
+              <img src="./images/SeeATheater.png" alt="SeeATheater" />
+            </div>
+            <div class="project-content">
+              <h3>SeeATheater</h3>
+              <p>소극장 공연 예매 웹 서비스</p>
+              <span class="project-date">2025.01 - 2026.01</span>
+              <br />
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <!-- hur 프로젝트 -->
+          <div class="project-card">
+            <div class="image">
+              <img src="./images/HUR.png" alt="HUR" />
+            </div>
+            <div class="project-content">
+              <h3>HUR</h3>
+              <p>홍익대학교 UMC 8기 모집 웹 서비스</p>
+              <span class="project-date">2024.11 - 2025.02</span>
+              <br />
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+              <span class="tag">styled-components</span>
+            </div>
+          </div>
+          <!-- stepup 프로젝트 -->
+          <div class="project-card">
+            <div class="image">
+              <img src="./images/StepUp.png" alt="StepUp" />
+            </div>
+            <div class="project-content">
+              <h3>StepUp</h3>
+              <p>제 12회 ICT 콤플렉스 SW 공모전: 일자리 매칭 웹 서비스</p>
+              <span class="project-date">2024.04 - 2024.07</span>
+              <br />
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer id="contact">
+      <p>© 2026 Lee Chaeeun. All rights reserved.</p>
+      <div class="contact-links">
+        <a href="mailto:leece144@gmail.com">Email</a>
+        <a href="https://github.com/chaechaen" target="_blank">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
